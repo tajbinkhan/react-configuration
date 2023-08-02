@@ -1,2 +1,2 @@
-# react-config
+# react-configuration
  React, NextJS App Configuration
