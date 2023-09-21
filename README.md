@@ -96,7 +96,7 @@ You need configure the the vscode also. Make sure you only configure your `works
 Next you have to add this line in your `package.json` file in your `scripts` object.
 
 ```bash
-"lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+"lint": "yarn add prettier@latest --dev && yarn add @babel/eslint-parser@latest --dev && npx install-peerdeps@latest --dev eslint-config-airbnb@latest && yarn add eslint-config-prettier@latest eslint-plugin-prettier@latest eslint@latest eslint-config-airbnb@latest eslint-plugin-import@latest eslint-plugin-jsx-a11y@latest eslint-plugin-react@latest eslint-plugin-react-hooks@latest --dev"
 ```
 
 Finally run the command in your terminal.
